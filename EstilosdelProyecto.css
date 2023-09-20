@@ -1,0 +1,90 @@
+body {
+    background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg);
+    font-family: "Raleway", sans-serif;
+    color: #181111;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    justify-content: space-evenly;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 0px;
+    background-color: rgba(165, 165, 165, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+  h1 {
+    border-block-start: #443a3a;
+    color: rgb(185, 115, 67);
+    text-align: center;
+  }
+  h2,
+  h3 {
+    font-family: "times New Roman ", "Lucida Console", monospace;
+    color: #443a3a;
+    background-color: #c7bdbd;
+    text-align: center;
+  }
+  .caratula {
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    background: #ada996; 
+    background: -webkit-linear-gradient(
+      to right,
+      #eaeaea,
+      #dbdbdb,
+      #f2f2f2,
+      #ada996
+    ); 
+    background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  }
+  .caratula h1 {
+    color: #644444;
+  }
+  #fotoPerfil {
+    display: flex;
+    justify-content: center;
+  }
+  .FotoCharly {
+    max-width: 100%;
+    width: 90%;
+  }
+  .contacto {
+    padding-left: 8px;
+  }
+  .contacto span {
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .alinearIconos {
+    text-align: center;
+  }
+  .iconos {
+    width: 30px;
+    height: 30px;
+  }
+  .section {
+    display: flex;
+    flex-basis: 65%;
+    flex-direction: column;
+  }
+  .row {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  p span {
+    text-decoration: underline;
+  }
+  .oculto {
+    display: none;
+  }
+  #ver_mas {
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(185, 115, 67);
+  }
